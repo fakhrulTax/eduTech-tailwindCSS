@@ -28,8 +28,10 @@
                     <a href=""><img src="images/logo.png" class="" alt=""></a>
                 </div>
 
+                <button class="block lg:hidden text-4xl text-eduDark font-semibold"><i
+                        class="fa-solid fa-bars"></i></button>
                 <!-- Nav -->
-                <nav class="grow">
+                <nav class="hidden lg:block grow">
                     <ul class="flex justify-around">
                         <li><a href=""
                                 class="block p-3 mr-2 text-eduDark text-lg hover:text-eduBlue active:text-eduBlue">Home</a>
@@ -52,7 +54,7 @@
                     </ul>
                 </nav>
                 <!-- Register -->
-                <div>
+                <div class="hidden lg:block">
                     <a href=""
                         class="text-eduBlue font-semibold p-3 border-2 border-solid border-eduBlue hover:text-white hover:bg-eduBlue">Register</a>
                 </div>
@@ -152,16 +154,16 @@
                         the readable content of a page when looking at its layout.</p>
                 </div>
                 <!-- Course Body -->
-                <div class="grid grid-cols-2 gap-x-12 gap-y-6 mb-12">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-6 mb-12">
 
                     <!-- Single Course -->
-                    <div class="flex flex-row">
+                    <div class="flex flex-col lg:flex-row">
                         <!-- Course Thumb -->
-                        <div class="mr-6">
-                            <img src="images/course/course-1.png" alt="">
+                        <div class="mr-0 mb-5 lg:mb-0 lg:mr-6">
+                            <img src="images/course/course-5.png" alt="" class="w-full">
                         </div>
                         <!-- Course Details -->
-                        <div class="flex flex-col justify-center">
+                        <div class="flex flex-col justify-center px-5 lg:px-0">
                             <h2 class="text-eduRegular text-eduCourseHead font-semibold mb-2">
                                 Fundamental Of UI/UX Design
                             </h2>
@@ -171,13 +173,13 @@
                         </div>
                     </div>
                     <!-- Single Course -->
-                    <div class="flex flex-row">
+                    <div class="flex flex-col lg:flex-row">
                         <!-- Course Thumb -->
-                        <div class="mr-6">
-                            <img src="images/course/course-2.png" alt="">
+                        <div class="mr-0 mb-5 lg:mb-0 lg:mr-6">
+                            <img src="images/course/course-2.png" alt="" class="w-full">
                         </div>
                         <!-- Course Details -->
-                        <div class="flex flex-col justify-center">
+                        <div class="flex flex-col justify-center px-5 lg:px-0">
                             <h2 class="text-eduRegular text-eduCourseHead font-semibold mb-2">
                                 Javascript Basic to advanced
                             </h2>
@@ -187,13 +189,13 @@
                         </div>
                     </div>
                     <!-- Single Course -->
-                    <div class="flex flex-row">
+                    <div class="flex flex-col lg:flex-row">
                         <!-- Course Thumb -->
-                        <div class="mr-6">
-                            <img src="images/course/course-3.png" alt="">
+                        <div class="mr-0 mb-5 lg:mb-0 lg:mr-6">
+                            <img src="images/course/course-3.png" alt="" class="w-full">
                         </div>
                         <!-- Course Details -->
-                        <div class="flex flex-col justify-center">
+                        <div class="flex flex-col justify-center px-5 lg:px-0">
                             <h2 class="text-eduRegular text-eduCourseHead font-semibold mb-2">
                                 Fullstack Web Development
                             </h2>
@@ -204,13 +206,13 @@
                         </div>
                     </div>
                     <!-- Single Course -->
-                    <div class="flex flex-row">
+                    <div class="flex flex-col lg:flex-row">
                         <!-- Course Thumb -->
-                        <div class="mr-6">
-                            <img src="images/course/course-4.png" alt="">
+                        <div class="mr-0 mb-5 lg:mb-0 lg:mr-6">
+                            <img src="images/course/course-4.png" alt="" class="w-full">
                         </div>
                         <!-- Course Details -->
-                        <div class="flex flex-col justify-center">
+                        <div class="flex flex-col justify-center px-5 lg:px-0">
                             <h2 class="text-eduRegular text-eduCourseHead font-semibold mb-2">
                                 Digital Marketing
                             </h2>
@@ -221,13 +223,13 @@
                         </div>
                     </div>
                     <!-- Single Course -->
-                    <div class="flex flex-row">
+                    <div class="flex flex-col lg:flex-row">
                         <!-- Course Thumb -->
-                        <div class="mr-6">
-                            <img src="images/course/course-5.png" alt="">
+                        <div class="mr-0 mb-5 lg:mb-0 lg:mr-6">
+                            <img src="images/course/course-5.png" alt="" class="w-full">
                         </div>
                         <!-- Course Details -->
-                        <div class="flex flex-col justify-center">
+                        <div class="flex flex-col justify-center px-5 lg:px-0">
                             <h2 class="text-eduRegular text-eduCourseHead font-semibold mb-2">
                                 Photography Basic Rules
                             </h2>
@@ -238,13 +240,13 @@
                         </div>
                     </div>
                     <!-- Single Course -->
-                    <div class="flex flex-row">
+                    <div class="flex flex-col lg:flex-row">
                         <!-- Course Thumb -->
-                        <div class="mr-6">
-                            <img src="images/course/course-6.png" alt="">
+                        <div class="mr-0 mb-5 lg:mb-0 lg:mr-6">
+                            <img src="images/course/course-6.png" alt="" class="w-full">
                         </div>
                         <!-- Course Details -->
-                        <div class="flex flex-col justify-center">
+                        <div class="flex flex-col justify-center px-5 lg:px-0">
                             <h2 class="text-eduRegular text-eduCourseHead font-semibold mb-2">
                                 Motion Graphics
                             </h2>
@@ -270,24 +272,25 @@
         <section class="eLearning">
             <div class="container">
 
-                <div class="flex flex-row items-center gap-14 bg-lerning">
+                <div class="flex flex-col lg:flex-row items-center gap-14 bg-lerning">
                     <!-- Left -->
-                    <div class="w-1/2">
-                        <img src="images/working.png" alt="">
+                    <div class="w-full lg:w-1/2">
+                        <img src="images/working.png" alt="" class="w-full">
                     </div>
                     <!-- Right -->
-                    <div class="w-1/2 p-6">
+                    <div class="w-full lg:w-1/2 p-6">
                         <h2 class="text-eduPrimary text-eduHeading font-semibold">Explore The elearning Institute</h2>
                         <p class="text-base text-eduDark font-400 mb-4">There are many variations of passages of Lorem
                             Ipsum available, but the majority have
                             suffered alteration in some form, by injected humour, or randomised words which don't look
                             even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be
                             sure.</p>
-                        <p class="text-base text-eduDark font-400">
+                        <a href="" class="text-eduBlue block lg:hidden">See More</a>
+                        <p class="text-base text-eduDark font-400 hidden lg:block">
                             Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
                             Internet tend to repeat predefined.
                         </p>
-                        <div class="grid grid-cols-3 gap-5">
+                        <div class="grid grid-cols-2 lg:grid-cols-3 gap:3 lg:gap-5">
                             <h2 class="py-7"><span class="text-eduPrimary text-eduHeading font-semibold">3.2K+</span>
                                 <br>
                                 <span class="text-sm text-eduDark">Online Course</span>
@@ -314,9 +317,9 @@
         <!-- Ready To Join Section -->
         <section class="my-32">
             <div class="container">
-                <div class="flex flex-row justify-between items-center px-20 py-24 bg-eduBlue rounded-md">
+                <div class="flex flex-col lg:flex-row justify-between items-center px-20 py-24 bg-eduBlue rounded-md">
                     <!-- Left -->
-                    <div class="w-1/2">
+                    <div class="w-full lg:w-1/2 text-center lg:text-left mb-5 lg:mb-0">
                         <h2 class="text-eduPrimary text-white font-semibold mb-4">
                             Ready to join?
                         </h2>
@@ -326,7 +329,7 @@
                         </p>
                     </div>
                     <!-- Right -->
-                    <div class="w-1/2 text-right">
+                    <div class="w-full lg:w-1/2 text-center lg:text-right">
                         <button
                             class="text-xl text-eduBlue inline-block font-semibold bg-white border-2 px-3 py-2 rounded-md hover:text-white hover:bg-eduBlue hover:border hover:border-solid hover:border-2 hover:border-white"
                             data-bs-toggle="modal" data-bs-target="#exampleModal">
